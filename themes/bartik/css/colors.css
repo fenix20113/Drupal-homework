@@ -10,8 +10,13 @@ body.overlay {
 .comment .comment-arrow {
   border-color: #ffffff;
 }
-#page {
+.front #page {
     background:#FFFFFF url("../images/header_bg.png") repeat-x top !important;
+}
+
+
+#page {
+    background:url('../images/header_bg.png') repeat-x center -342px  #fff !important;
 }
 #page,
 #main-wrapper,

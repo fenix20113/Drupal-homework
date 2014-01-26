@@ -1,21 +1,28 @@
 /* ---------- Overall Specifications ---------- */
 
 /*########   MAIN MENU##################*/
+#header #block-jquery-countdown-timer-jquery-countdown-timer {
+    margin-top: 300px;
+}
 
 #header .content .menu {
-
-    height: 108px;
     margin: 0;
 }
 
 #header .content .menu li a {
-
+    background: none;
+    display: block;
     padding: 48px 0 44px;
+}
+
+.block-system-main-menu {
+    height: 108px;
 }
 
 #header .content .menu li a.active, .menu li.active a {
     min-width: 46px;
     text-align: center;
+    height: 50px !important;
     background: url('../images/inner_active.png') center bottom no-repeat;
 }
 
@@ -27,11 +34,12 @@
     overflow: visible;
     float: right;
     width: 471px;
-    height: 42px;
     margin: 34px 0 31px;
 }
 
 #header .content .menu li {
+    display: block;
+    height: 108px;
     float: left;
     padding: 0 0 0 26px !important;
 }
@@ -106,7 +114,8 @@
     font-size: 25px;
     font-weight: normal;
     line-height: 29px;
-    padding: 37px 0 7px;ас
+    padding: 37px 0 7px;
+    а с
 
 }
 
@@ -647,8 +656,12 @@ h1#site-name {
 .region-header .block {
     font-size: 0.857em;
     float: left; /* LTR */
-    margin: 0 10px;
+    margin: 0;
     padding: 0;
+}
+
+.region-header {
+    margin: 0 !important;
 }
 
 .region-header .block .content {
@@ -690,16 +703,13 @@ h1#site-name {
 
 /* Region header block menus. */
 .region-header .block-menu {
-    border: 1px solid;
-    border-color: #eee;
-    border-color: rgba(255, 255, 255, 0.2);
-    padding: 0;
+
     width: 208px;
 }
 
 .region-header .block-menu li a {
     display: block;
-    border-bottom: 1px solid;
+
     border-bottom-color: #eee;
     border-bottom-color: rgba(255, 255, 255, 0.2);
     padding: 3px 7px;
