@@ -1,4 +1,219 @@
 /* ---------- Overall Specifications ---------- */
+/*####  contacts    ####*/
+
+
+   /*.page-contacts > img {*/
+    /*float: right;*/
+    /*margin: 0 ;*/
+/*}*/
+   .page-contacts dl {
+    overflow: hidden;
+    padding: 0 ;
+    text-align: center;
+}
+
+
+   .page-contacts dl dt.map h4 {
+       padding-left: 180px ;
+       text-align: left ;
+   }
+   .page-contacts dl dt.map {
+       width: 100% ;
+       float: right ;
+}
+   .page-contacts dl dd.map {
+    background: url("http://geekhub.ck.ua/images/map.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+           width: 381px ;
+    height: 400px;
+    padding: 17px 17px 17px 16px;
+}
+   .page-contacts dl dt {width: 300px ;
+       margin: 0 ! important;
+       padding: 0 !important;
+float: left;
+}
+   .page-contacts dl dd {
+
+       float: left;
+
+}
+   .page-contacts dl h4 {
+
+    color: #EB3580;
+    font-size: 27px;
+    font-weight: normal;
+    padding: 0 0 12px;
+    text-align: center;
+}
+   .page-contacts dl ul {
+
+          overflow: hidden;
+    padding: 0 ;
+}
+   .page-contacts dl ul li {
+     list-style: none;
+       float: left;
+    padding: 0 17px 0 0;
+}
+   .page-contacts dl ul li a {
+    background: url("http://geekhub.ck.ua/images/contact_links.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 49px;
+    overflow: hidden;
+    text-indent: -200px;
+    width: 49px;
+}
+   .page-contacts dl ul li.fb a {
+    background-position: 0 0;
+}
+   .page-contacts dl ul li.fb a:hover {
+    background-position: 0 -57px;
+}
+   .page-contacts dl ul li.vk a {
+    background-position: -65px 0;
+}
+   .page-contacts dl ul li.vk a:hover {
+    background-position: -65px -57px;
+}
+   .page-contacts dl ul li.tw a {
+    background-position: -132px 0;
+}
+   .page-contacts dl ul li.tw a:hover {
+    background-position: -132px -57px;
+}
+
+
+/*####  end contacts  ####*/
+
+
+
+
+/*#####   about  us #######*/
+.page-contacts h1#page-title,
+.page-about-us h1#page-title,
+.page-about-registration h1#page-title,
+.page-team h1#page-title {
+    text-transform: none;
+    text-align: left;
+    border-bottom: 1px solid #A7C3CF;
+    font-family: "Trebuchet MS";
+    font-size: 50px !important;
+    font-weight: normal;
+    line-height: 50px;
+    margin: 0 0 27px;
+    padding: 0 0 8px;
+}
+.page-contacts h4,
+.page-about-registration h4 {
+    color: #EA2778;
+    font-family: "Trebuchet MS";
+    font-size: 29px;
+    font-weight: normal;
+    line-height: 29px;
+    margin: 0 0 10px;
+
+}
+
+
+.views-field-field-image-about-us,
+.views-field-field-image-reg {
+    padding-left: 50px;
+    width: 274px !important;
+    height: 800px !important;
+}
+
+.page-about-registration .views-field-body tbody {
+    font-size: 14px;
+}
+
+.page-about-registration .views-field-body,
+.view-about-us .views-field-body {
+    width: 500px !important;
+    padding-right: 70px ;
+    float: right;
+    font-size: 14px ;
+    line-height: 20px;
+
+}
+
+/*##### end   about  us #######*/
+
+
+#sponsor  ul.social_share > li h4 {
+    border-bottom: 1px solid #A7C3CF;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 6px;
+    line-height: 14px;
+    margin: 0 0 22px;
+    padding: 0 0 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#sponsor  ul.social_share li.vk {
+    margin: 0 36px;
+}
+#sponsor  ul.social_share li ul {
+    overflow: hidden;
+}
+#sponsor  ul.social_share li ul li {
+    float: left ;
+    padding: 0 12px 14px;
+}
+#sponsor  ul.social_share li ul li a {
+    background: url("http://geekhub.ck.ua/images/sponsors.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    overflow: hidden;
+    text-indent: -200px;
+}
+
+
+#sponsor  ul.social_share li ul li.left {
+    margin: 0 0 0 -33px;
+
+}
+#sponsor  ul.social_share li ul li.de a:hover {
+    background-position: 0 0;
+}
+#sponsor  ul.social_share li ul li.de a {
+    background-position: 0 -76px;
+    height: 54px;
+    width: 70px;
+}
+#sponsor  ul.social_share li ul li.moc a:hover {
+    background-position: -101px 0;
+}
+#sponsor  ul.social_share li ul li.moc a {
+    background-position: -101px -76px;
+    height: 46px;
+    width: 72px;
+}
+#sponsor  ul.social_share li ul li.sergium a:hover {
+    background-position: -209px 0;
+}
+#sponsor  ul.social_share li ul li.sergium a {
+    background-position: -209px -76px;
+    height: 48px;
+    width: 45px;
+}
+#sponsor  ul.social_share li ul li.stuff a:hover {
+    background-position: -283px 0;
+}
+#sponsor  ul.social_share li ul li.stuff a {
+    background-position: -283px -76px;
+    height: 49px;
+    width: 59px;
+}
+#sponsor  ul.social_share li ul li.youthog a:hover {
+    background-position: -385px 0;
+}
+#sponsor  ul.social_share li ul li.youthog a {
+    background-position: -385px -76px;
+    height: 44px;
+    width: 61px;
+}
+
 
 /*########   MAIN MENU##################*/
 #header #block-jquery-countdown-timer-jquery-countdown-timer {
@@ -62,6 +277,27 @@
 }
 
 /*######## END MAIN MENU##########*/
+
+#footer .block li a {
+
+    color: #396375;
+    display: block;
+    font-family: "Trebuchet MS";
+    font-size: 10px;
+    font-weight: bold;
+    height: 12px;
+    text-transform: uppercase;
+
+}
+
+
+
+#footer .block h2 {
+    display: none;
+}
+
+
+
 
 /*######### TEAM  #######*/
 .team-list ol {
@@ -947,7 +1183,7 @@ h1#page-title {
     line-height: 1;
 }
 
-#content h2 {
+  h2 {
     margin-bottom: 2px;
     font-size: 1.429em;
     line-height: 1.4;
@@ -1195,12 +1431,12 @@ ul.links {
 /* ----------------- Triptych ----------------- */
 
 #triptych-wrapper {
-    background-color: #f0f0f0;
-    background: rgba(30, 50, 10, 0.08);
-    border-top: 1px solid #e7e7e7;
+    background-color: #fff;
+   border: none;
 }
 
 #triptych h2 {
+    display: none;
     color: #000;
     font-size: 1.714em;
     margin-bottom: 0.8em;
@@ -1210,9 +1446,10 @@ ul.links {
 }
 
 #triptych .block {
+
     margin-bottom: 2em;
     padding-bottom: 2em;
-    border-bottom: 1px solid #dfdfdf;
+    border:none;
     line-height: 1.3;
 }
 
@@ -1355,12 +1592,12 @@ ul.links {
 #footer {
     letter-spacing: 0.2px;
     margin-top: 30px;
-    border-top: 1px solid #555;
-    border-color: rgba(255, 255, 255, 0.15);
+    border-top: 1px solid #A7C3CF;
+
 }
 
 #footer .region {
-    margin-top: 20px;
+  margin: 0;
 }
 
 #footer .block {
